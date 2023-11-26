@@ -1,0 +1,21 @@
+Program 3: Hexapawn 
+Deep feed forward AI nueral network 
+
+Objective: 
+The goal of this project was to explore the following 
+  - Constructing a directed graph to represent a network 
+  - Determine how initial weight configurations affect network's learning 
+  - Tuning network parameters 
+  - Back propegation 
+
+Problem Definition:
+This project uses the game of Hexapawn to explore the noted objectives 
+
+Hexapawn is a simple turn based game played on a 3×3 board. Each player begins with 3 pawns
+- WHITE (MAX) in the bottom row and BLACK (MIN) in the top row. Pawns can move as normal
+in chess (i.e. white pawns can move up one square or can capture a black pawn diagonally up
+one square, and black pawns can move down one square or can capture a white pawn diagonally
+down one square). The goal of each player is to either get one of their pawns to the other end of
+the board, or to make it such that their opponent is stuck on their next move. 
+
+The provided code learns the puzzle based on if both players move optimally. 
