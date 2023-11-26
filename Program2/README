@@ -1,0 +1,16 @@
+Program 2: Sudoku Solver
+
+Objective:
+The goal of this project is to explore the following algorithms
+  AC-3 and Maintaining Arc Consistency 
+  Backtracking Search for CSPs
+As well as experience with web services for visualization 
+
+Problem Definition: 
+The project focuses on solving a Sudoku number puzzle, set on a 9x9 grid 
+Puzzles have digits in each cell 
+The solution to the puzzle ensures each row, column, and each of the nine 3 × 3 non-overlapping
+subgrids (boxes) contains all of the digits 1 thru 9.
+
+Puzzles start as partially filled out grids. This program solves the puzzle by 
+filling in the remaining cells and provides a visualization for a step by step solution guide. 
