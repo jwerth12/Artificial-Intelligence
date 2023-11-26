@@ -1,0 +1,29 @@
+Question 7.3
+Puzzle 6: BFS
+
+107428901 function calls (91031426 primitive calls) in 3421.337 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000 3421.337 3421.337 <string>:1(<module>)
+        1 3384.792 3384.792 3421.287 3421.287 actual481-proj1.py:141(bfs)
+   460298    0.659    0.000    0.659    0.000 actual481-proj1.py:20(__init__)
+        1    0.049    0.049 3421.337 3421.337 actual481-proj1.py:248(main)
+   172569    1.477    0.000    1.673    0.000 actual481-proj1.py:25(possible_actions)
+   460298    1.553    0.000   13.501    0.000 actual481-proj1.py:48(result)
+   172569    1.295    0.000   35.358    0.000 actual481-proj1.py:64(expand)
+14211145/1093165   13.813    0.000   30.620    0.000 copy.py:128(deepcopy)
+  9838485    0.889    0.000    0.889    0.000 copy.py:182(_deepcopy_atomic)
+4372660/1093165    6.493    0.000   27.604    0.000 copy.py:200(_deepcopy_list)
+  4372660    2.913    0.000    3.803    0.000 copy.py:242(_keep_alive)
+        1    0.000    0.000 3421.337 3421.337 {built-in method builtins.exec}
+ 24049630    2.363    0.000    2.363    0.000 {built-in method builtins.id}
+  3049175    0.529    0.000    0.529    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+   178223    0.059    0.000    0.059    0.000 {method 'append' of 'collections.deque' objects}
+ 17496323    1.704    0.000    1.704    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+ 28422290    2.671    0.000    2.671    0.000 {method 'get' of 'dict' objects}
+   172569    0.076    0.000    0.076    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}

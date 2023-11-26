@@ -1,0 +1,44 @@
+Question 7.1 
+Puzzle 0: Iterative deepening 
+         129599 function calls (109686 primitive calls) in 0.054 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.054    0.054 418_proj1.py:103(iterative_deep)
+        7    0.001    0.000    0.054    0.008 418_proj1.py:120(dls)
+      494    0.002    0.000    0.002    0.000 418_proj1.py:14(find_empty)
+      151    0.001    0.000    0.036    0.000 418_proj1.py:164(isCycle)
+        1    0.000    0.000    0.054    0.054 418_proj1.py:310(main)
+      103    0.000    0.000    0.001    0.000 418_proj1.py:33(possible_actions)
+      288    0.000    0.000    0.002    0.000 418_proj1.py:57(result)
+      103    0.001    0.000    0.017    0.000 418_proj1.py:76(expand)
+      295    0.000    0.000    0.000    0.000 418_proj1.py:97(__init__)
+        1    0.000    0.000    0.054    0.054 <string>:1(<module>)
+16714/542    0.021    0.000    0.048    0.000 copy.py:128(deepcopy)
+    11706    0.001    0.000    0.001    0.000 copy.py:182(_deepcopy_atomic)
+ 3860/965    0.007    0.000    0.030    0.000 copy.py:200(_deepcopy_list)
+  574/151    0.002    0.000    0.032    0.000 copy.py:226(_deepcopy_dict)
+     5008    0.003    0.000    0.005    0.000 copy.py:242(_keep_alive)
+  574/151    0.002    0.000    0.034    0.000 copy.py:258(_reconstruct)
+     1148    0.000    0.000    0.001    0.000 copy.py:263(<genexpr>)
+      574    0.000    0.000    0.000    0.000 copyreg.py:90(__newobj__)
+        1    0.000    0.000    0.000    0.000 copyreg.py:99(_slotnames)
+      574    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x10a67eab0}
+        1    0.000    0.000    0.054    0.054 {built-in method builtins.exec}
+     1148    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      575    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+    27272    0.003    0.000    0.003    0.000 {built-in method builtins.id}
+     1148    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+      574    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+     2477    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      574    0.000    0.000    0.000    0.000 {method '__reduce_ex__' of 'object' objects}
+    17916    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+      295    0.000    0.000    0.000    0.000 {method 'appendleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    34002    0.004    0.000    0.004    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+      574    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      289    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+      574    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}

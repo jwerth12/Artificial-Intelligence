@@ -1,0 +1,51 @@
+Question 7.1
+Puzzle 0: A* Search with Manhattan Distance
+
+         35636 function calls (32366 primitive calls) in 0.018 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      275    0.001    0.000    0.001    0.000 418_proj1.py:14(find_empty)
+        1    0.001    0.001    0.018    0.018 418_proj1.py:222(a_star)
+      162    0.001    0.000    0.001    0.000 418_proj1.py:269(createKey)
+      162    0.002    0.000    0.004    0.000 418_proj1.py:293(manhatten_dist)
+     1296    0.001    0.000    0.001    0.000 418_proj1.py:305(distance)
+        1    0.000    0.000    0.018    0.018 418_proj1.py:310(main)
+       57    0.000    0.000    0.001    0.000 418_proj1.py:33(possible_actions)
+      161    0.000    0.000    0.001    0.000 418_proj1.py:57(result)
+       57    0.000    0.000    0.010    0.000 418_proj1.py:76(expand)
+      162    0.000    0.000    0.000    0.000 418_proj1.py:97(__init__)
+        1    0.000    0.000    0.018    0.018 <string>:1(<module>)
+ 2834/218    0.004    0.000    0.008    0.000 copy.py:128(deepcopy)
+     1962    0.000    0.000    0.000    0.000 copy.py:182(_deepcopy_atomic)
+  872/218    0.002    0.000    0.007    0.000 copy.py:200(_deepcopy_list)
+      872    0.001    0.000    0.001    0.000 copy.py:242(_keep_alive)
+      105    0.000    0.000    0.001    0.000 queue.py:121(put)
+       58    0.000    0.000    0.000    0.000 queue.py:153(get)
+        1    0.000    0.000    0.000    0.000 queue.py:226(_init)
+      116    0.000    0.000    0.000    0.000 queue.py:229(_qsize)
+      105    0.000    0.000    0.000    0.000 queue.py:232(_put)
+       58    0.000    0.000    0.000    0.000 queue.py:235(_get)
+        1    0.000    0.000    0.000    0.000 queue.py:33(__init__)
+       58    0.000    0.000    0.000    0.000 queue.py:96(empty)
+        3    0.000    0.000    0.000    0.000 threading.py:222(__init__)
+      163    0.000    0.000    0.000    0.000 threading.py:246(__enter__)
+      163    0.000    0.000    0.000    0.000 threading.py:249(__exit__)
+      163    0.000    0.000    0.000    0.000 threading.py:261(_is_owned)
+      163    0.000    0.000    0.000    0.000 threading.py:341(notify)
+       58    0.000    0.000    0.000    0.000 {built-in method _heapq.heappop}
+      105    0.000    0.000    0.000    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+     2592    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.018    0.018 {built-in method builtins.exec}
+     4796    0.001    0.000    0.001    0.000 {built-in method builtins.id}
+     5218    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     2592    0.000    0.000    0.000    0.000 {built-in method math.floor}
+      163    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      163    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+      163    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+     4082    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     5668    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}

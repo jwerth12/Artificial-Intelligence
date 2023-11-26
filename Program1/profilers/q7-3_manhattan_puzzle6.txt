@@ -1,0 +1,34 @@
+Question 7.3
+Puzzle 6: A* with Manhattan
+
+47026509 function calls (41525499 primitive calls) in 201.462 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  201.462  201.462 <string>:1(<module>)
+   154829    0.123    0.000    0.123    0.000 actual481-proj1.py:12(__init__)
+   169029    1.293    0.000    1.357    0.000 actual481-proj1.py:174(createHash)
+        1    7.240    7.240  201.402  201.402 actual481-proj1.py:185(a_star)
+   154828    1.527    0.000    2.627    0.000 actual481-proj1.py:231(manhattan_dist)
+  1238624    0.463    0.000    0.662    0.000 actual481-proj1.py:243(distance)
+        1    0.060    0.060  201.462  201.462 actual481-proj1.py:248(main)
+   114156    0.463    0.000    0.546    0.000 actual481-proj1.py:25(possible_actions)
+   154828    0.483    0.000    4.838    0.000 actual481-proj1.py:48(result)
+    57078    0.330    0.000   12.384    0.000 actual481-proj1.py:64(expand)
+4767542/366734    5.592    0.000   11.190    0.000 copy.py:128(deepcopy)
+  3300606    0.297    0.000    0.297    0.000 copy.py:182(_deepcopy_atomic)
+1466936/366734    2.279    0.000   10.296    0.000 copy.py:200(_deepcopy_list)
+  1466936    0.881    0.000    1.172    0.000 copy.py:242(_keep_alive)
+  2477248    0.199    0.000    0.199    0.000 {built-in method builtins.abs}
+        1    0.000    0.000  201.462  201.462 {built-in method builtins.exec}
+  8068148    0.789    0.000    0.789    0.000 {built-in method builtins.id}
+  5134002    0.393    0.000    0.393    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+    57078  170.340    0.003  170.340    0.003 {built-in method builtins.sorted}
+  2477248    0.218    0.000    0.218    0.000 {built-in method math.floor}
+  6120351    0.679    0.000    0.679    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+  9535084    0.872    0.000    0.872    0.000 {method 'get' of 'dict' objects}
+   111951    6.939    0.000    6.939    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}

@@ -1,0 +1,51 @@
+Question 7.2
+Profiler report for A* using puzzle 2 and Manhattan Distance
+
+         23414745 function calls (21240630 primitive calls) in 11.494 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   184039    0.616    0.000    0.696    0.000 418_proj1.py:14(find_empty)
+        1    0.427    0.427   11.464   11.464 418_proj1.py:222(a_star)
+   105844    0.884    0.000    0.926    0.000 418_proj1.py:269(createKey)
+   105844    1.448    0.000    2.599    0.000 418_proj1.py:293(manhatten_dist)
+   846752    0.450    0.000    0.644    0.000 418_proj1.py:305(distance)
+        1    0.030    0.030   11.494   11.494 418_proj1.py:310(main)
+    39098    0.111    0.000    0.426    0.000 418_proj1.py:33(possible_actions)
+   105843    0.185    0.000    0.625    0.000 418_proj1.py:57(result)
+    39098    0.180    0.000    6.535    0.000 418_proj1.py:76(expand)
+   105844    0.090    0.000    0.090    0.000 418_proj1.py:97(__init__)
+        1    0.000    0.000   11.494   11.494 <string>:1(<module>)
+1884233/144941    2.337    0.000    5.290    0.000 copy.py:128(deepcopy)
+  1304469    0.167    0.000    0.167    0.000 copy.py:182(_deepcopy_atomic)
+579764/144941    1.128    0.000    4.838    0.000 copy.py:200(_deepcopy_list)
+   579764    0.483    0.000    0.629    0.000 copy.py:242(_keep_alive)
+    54552    0.144    0.000    0.406    0.000 queue.py:121(put)
+    39099    0.103    0.000    0.409    0.000 queue.py:153(get)
+        1    0.000    0.000    0.000    0.000 queue.py:226(_init)
+    78198    0.030    0.000    0.041    0.000 queue.py:229(_qsize)
+    54552    0.028    0.000    0.050    0.000 queue.py:232(_put)
+    39099    0.016    0.000    0.163    0.000 queue.py:235(_get)
+        1    0.000    0.000    0.000    0.000 queue.py:33(__init__)
+    39099    0.048    0.000    0.071    0.000 queue.py:96(empty)
+        3    0.000    0.000    0.000    0.000 threading.py:222(__init__)
+    93651    0.044    0.000    0.073    0.000 threading.py:246(__enter__)
+    93651    0.042    0.000    0.057    0.000 threading.py:249(__exit__)
+    93651    0.043    0.000    0.078    0.000 threading.py:261(_is_owned)
+    93651    0.130    0.000    0.207    0.000 threading.py:341(notify)
+    39099    0.147    0.000    0.147    0.000 {built-in method _heapq.heappop}
+    54552    0.022    0.000    0.022    0.000 {built-in method _heapq.heappush}
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+  1693504    0.194    0.000    0.194    0.000 {built-in method builtins.abs}
+        1    0.000    0.000   11.494   11.494 {built-in method builtins.exec}
+  3188702    0.405    0.000    0.405    0.000 {built-in method builtins.id}
+  3432806    0.352    0.000    0.352    0.000 {built-in method builtins.len}
+  1693504    0.297    0.000    0.297    0.000 {built-in method math.floor}
+    93651    0.028    0.000    0.028    0.000 {method '__enter__' of '_thread.lock' objects}
+    93651    0.015    0.000    0.015    0.000 {method '__exit__' of '_thread.lock' objects}
+    93651    0.034    0.000    0.034    0.000 {method 'acquire' of '_thread.lock' objects}
+  2703352    0.334    0.000    0.334    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+  3768466    0.502    0.000    0.502    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}

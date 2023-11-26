@@ -1,0 +1,41 @@
+AVERAGES:
+
+A* with Manhattan:
+Number of calls to expand:
+
+Puzzle 2: 20954
+Puzzle 3: 23489
+Puzzle 4: 18623
+Puzzle 5: 33399
+Puzzle 6: 57078
+
+SUM = 153543 
+153543 / 5 = 30708.6
+
+AVERAGE CALLS TO EXPAND = 30708.6
+
+
+BFS
+Number of calls to expand
+
+Puzzle 2: 43591
+Puzzle 3: 105530
+Puzzle 4: 59477
+Puzzle 5: 82506
+Puzzle 6: 172569
+
+SUM = 463673
+463673 / 5 = 92734.6
+
+AVERAGE CALLS TO EXPAND = 92734.6
+
+
+Memory Averages:
+
+I worked in Python using cProfiler which does not provide data memory.
+
+However, to explain what the results should have exemplified: 
+
+Breadth first search will use a larger amount of memory because it expands all of the children at a given node, giving it an exponential space complexity. 
+
+A* becomes a normal breadth-first search when passed in the heuristic that always returns zero (uniform cost search). With an optimal heuristic, it becomes O(n) space complexity where n is the length of the solution path. 
