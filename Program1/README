@@ -1,0 +1,18 @@
+Program 1: n-Puzzle
+
+Objective: 
+The goal of this project was to explore the inner workers of several algorithms including:
+  Iterative-deepening Search
+  Breadth-first Search
+  A* Search
+As well as practice using a software profiler 
+
+The Problem: 
+This project focuses on the 8-puzzle, 
+which is a 3x3 grid of numbered tiles 1-8 and one blank space.
+
+The blank space allows tiles to be slid on the board (only tiles adjacent to the blank may be moved)
+The goal is to slide the tiles into numerical order from left to right, top to bottom 
+Tiles may only move orthogonally. 
+
+Code is provided in Python
