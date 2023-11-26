@@ -1,0 +1,163 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> CISC481 Sudoku Solver </title>
+    <style>
+      table {
+          border: 3px solid black;
+          border-collapse: collapse;
+      }
+  
+      tr {
+          padding: 0;
+      }
+  
+      td {
+          width: 64px;
+          height: 64px;
+          padding: 0;
+          border: 1px solid gray;
+          text-align: center;
+          vertical-align: center;
+          font-size: 1.5em;
+      }
+  
+      input {
+          font-size: 1em;
+          /*border: 0;*/
+      }
+  
+      tr.box-bottom td {
+          border-bottom: 3px solid black;
+      }
+  
+      td.box-side {
+          border-right: 3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h2> Solution </h2>
+    {%for i in range(0, len)%}
+    <table>
+      <tbody><tr>
+        <!-- 1st row --> 
+        <td> {{ solutions[i]["C11"][0] }} </td>
+        <td> {{ solutions[i]["C12"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C13"][0] }} </td>
+        <td> {{ solutions[i]["C14"][0] }} </td>
+        <td> {{ solutions[i]["C15"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C16"][0] }} </td>
+        <td> {{ solutions[i]["C17"][0] }} </td>
+        <td> {{ solutions[i]["C18"][0] }} </td>
+        <td> {{ solutions[i]["C19"][0] }} </td>
+      </tr>
+
+      <!-- 2nd row --> 
+      <tr>
+        <td> {{ solutions[i]["C21"][0] }} </td>
+        <td> {{ solutions[i]["C22"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C23"][0] }} </td>
+        <td> {{ solutions[i]["C24"][0] }} </td>
+        <td> {{ solutions[i]["C25"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C26"][0] }} </td>
+        <td> {{ solutions[i]["C27"][0] }} </td>
+        <td> {{ solutions[i]["C28"][0] }} </td>
+        <td> {{ solutions[i]["C29"][0] }} </td>
+      </tr>
+
+      <!-- 3rd row --> 
+      <tr class="box-bottom">
+        <td> {{ solutions[i]["C31"][0] }} </td>
+        <td> {{ solutions[i]["C32"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C33"][0] }} </td>
+        <td> {{ solutions[i]["C34"][0] }} </td>
+        <td> {{ solutions[i]["C35"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C36"][0] }} </td>
+        <td> {{ solutions[i]["C37"][0] }} </td>
+        <td> {{ solutions[i]["C38"][0] }} </td>
+        <td> {{ solutions[i]["C39"][0] }} </td>
+      </tr>
+      
+      <!-- 4th row --> 
+      <tr>
+        <td> {{ solutions[i]["C41"][0] }} </td>
+        <td> {{ solutions[i]["C42"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C43"][0] }} </td>
+        <td> {{ solutions[i]["C44"][0] }} </td>
+        <td> {{ solutions[i]["C45"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C46"][0] }} </td>
+        <td> {{ solutions[i]["C47"][0] }} </td>
+        <td> {{ solutions[i]["C48"][0] }} </td>
+        <td> {{ solutions[i]["C49"][0] }} </td>
+      </tr>
+
+      <!-- 5th row --> 
+      <tr>
+        <td> {{ solutions[i]["C51"][0] }} </td>
+        <td> {{ solutions[i]["C52"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C53"][0] }} </td>
+        <td> {{ solutions[i]["C54"][0] }} </td>
+        <td> {{ solutions[i]["C55"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C56"][0] }} </td>
+        <td> {{ solutions[i]["C57"][0] }} </td>
+        <td> {{ solutions[i]["C58"][0] }} </td>
+        <td> {{ solutions[i]["C59"][0] }} </td>
+      </tr>
+
+      <!-- 6th row --> 
+      <tr class="box-bottom">
+        <td> {{ solutions[i]["C61"][0] }} </td>
+        <td> {{ solutions[i]["C62"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C63"][0] }} </td>
+        <td> {{ solutions[i]["C64"][0] }} </td>
+        <td> {{ solutions[i]["C65"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C66"][0] }} </td>
+        <td> {{ solutions[i]["C67"][0] }} </td>
+        <td> {{ solutions[i]["C68"][0] }} </td>
+        <td> {{ solutions[i]["C69"][0] }} </td>
+      </tr>
+
+      <!-- 7th row --> 
+      <tr>
+        <td> {{ solutions[i]["C71"][0] }} </td>
+        <td> {{ solutions[i]["C72"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C73"][0] }} </td>
+        <td> {{ solutions[i]["C74"][0] }} </td>
+        <td> {{ solutions[i]["C75"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C76"][0] }} </td>
+        <td> {{ solutions[i]["C77"][0] }} </td>
+        <td> {{ solutions[i]["C78"][0] }} </td>
+        <td> {{ solutions[i]["C79"][0] }} </td>
+      </tr>
+
+      <!-- 8th row --> 
+      <tr>
+        <td> {{ solutions[i]["C81"][0] }} </td>
+        <td> {{ solutions[i]["C82"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C83"][0] }} </td>
+        <td> {{ solutions[i]["C84"][0] }} </td>
+        <td> {{ solutions[i]["C85"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C86"][0] }} </td>
+        <td> {{ solutions[i]["C87"][0] }} </td>
+        <td> {{ solutions[i]["C88"][0] }} </td>
+        <td> {{ solutions[i]["C89"][0] }} </td>
+      </tr>
+
+      <!-- 9th row --> 
+      <tr class="box-bottom">
+        <td> {{ solutions[i]["C91"][0] }} </td>
+        <td> {{ solutions[i]["C92"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C93"][0] }} </td>
+        <td> {{ solutions[i]["C94"][0] }} </td>
+        <td> {{ solutions[i]["C95"][0] }} </td>
+        <td class="box-side"> {{ solutions[i]["C96"][0] }} </td>
+        <td> {{ solutions[i]["C97"][0] }} </td>
+        <td> {{ solutions[i]["C98"][0] }} </td>
+        <td> {{ solutions[i]["C99"][0] }} </td>
+      </tr>
+    </tbody></table>
+    <br>
+    {%endfor%}
+  </body>
+</html>
